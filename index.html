@@ -109,8 +109,12 @@
         /* Hero Section */
         .hero {
             padding: 100px 0 80px;
-            background: radial-gradient(circle at top right, rgba(124, 58, 237, 0.15), transparent 50%),
-                        radial-gradient(circle at bottom left, rgba(245, 158, 11, 0.1), transparent 50%);
+            background: 
+                /* Capa oscura para mejorar legibilidad del texto */
+                linear-gradient(rgba(15, 23, 42, 0.7), rgba(15, 23, 42, 0.7)),
+                /* Imagen de fondo */
+                url('https://blogs.iadb.org/ideas-matter/wp-content/uploads/sites/12/2022/10/Res_Blog_Remittances.jpg') no-repeat center center;
+            background-size: cover;
             position: relative;
             overflow: hidden;
         }
